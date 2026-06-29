@@ -1,13 +1,15 @@
 message_id,image_path,objects,confidence,category
-196268,data/raw/images\tikvahpharma\196268.jpg,bowl,0.36,other
-196269,data/raw/images\tikvahpharma\196269.jpg,,0,other
-196270,data/raw/images\tikvahpharma\196270.jpg,,0,other
-196271,data/raw/images\tikvahpharma\196271.jpg,refrigerator,0.34,other
-196286,data/raw/images\tikvahpharma\196286.jpg,"book,toothbrush",0.29,other
-196288,data/raw/images\tikvahpharma\196288.jpg,bowl,0.36,other
-196295,data/raw/images\tikvahpharma\196295.jpg,"person,sports ball",0.34,lifestyle
-196310,data/raw/images\tikvahpharma\196310.jpg,,0,other
-196311,data/raw/images\tikvahpharma\196311.jpg,,0,other
-196312,data/raw/images\tikvahpharma\196312.jpg,refrigerator,0.34,other
-196313,data/raw/images\tikvahpharma\196313.jpg,laptop,0.71,other
-196327,data/raw/images\tikvahpharma\196327.jpg,,0,other
+196368,data/raw/images\tikvahpharma\196368.jpg,,0,other
+196369,data/raw/images\tikvahpharma\196369.jpg,refrigerator,0.34,other
+196370,data/raw/images\tikvahpharma\196370.jpg,laptop,0.71,other
+196383,data/raw/images\tikvahpharma\196383.jpg,"laptop,bottle",0.72,product_display
+196384,data/raw/images\tikvahpharma\196384.jpg,laptop,0.91,other
+196409,data/raw/images\tikvahpharma\196409.jpg,,0,other
+196410,data/raw/images\tikvahpharma\196410.jpg,,0,other
+196411,data/raw/images\tikvahpharma\196411.jpg,refrigerator,0.34,other
+196412,data/raw/images\tikvahpharma\196412.jpg,"laptop,bottle",0.72,product_display
+196413,data/raw/images\tikvahpharma\196413.jpg,laptop,0.91,other
+196417,data/raw/images\tikvahpharma\196417.jpg,,0,other
+196437,data/raw/images\tikvahpharma\196437.jpg,"tv,laptop,laptop,laptop,keyboard,laptop,tv",0.56,other
+196438,data/raw/images\tikvahpharma\196438.jpg,laptop,0.85,other
+196439,data/raw/images\tikvahpharma\196439.jpg,person,0.8,lifestyle
