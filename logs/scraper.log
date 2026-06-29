@@ -1,0 +1,24 @@
+2026-06-29 14:18:26,451 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-06-29 14:18:26,844 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-06-29 14:18:28,914 - INFO - Starting scrape: chemed
+2026-06-29 14:18:29,886 - INFO - Finished scraping: chemed
+2026-06-29 14:18:29,886 - INFO - Starting scrape: lobeliacosmetics
+2026-06-29 14:18:30,627 - INFO - Finished scraping: lobeliacosmetics
+2026-06-29 14:18:30,627 - INFO - Starting scrape: tikvahpharma
+2026-06-29 14:18:32,335 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:33,463 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:35,972 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:37,113 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:37,786 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:40,132 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:42,532 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:43,420 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:46,017 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:46,962 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:48,980 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:50,920 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:52,073 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:53,113 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 14:18:58,530 - INFO - Finished scraping: tikvahpharma
+2026-06-29 14:18:58,531 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2026-06-29 14:18:58,567 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
