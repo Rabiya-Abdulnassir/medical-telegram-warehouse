@@ -1,8 +1,11 @@
-from dagster import op, job, Failure, Definitions, ScheduleDefinition
+from dagster import op, job, Definitions
 import subprocess
 import os
 
 
+# =====================
+# SCRAPE
+# =====================
 @op
 def scrape_telegram_data():
     result = subprocess.run(
@@ -12,11 +15,14 @@ def scrape_telegram_data():
     )
 
     if result.returncode != 0:
-        raise Failure(result.stderr)
+        raise Exception(result.stderr)
 
     return "scraped"
 
 
+# =====================
+# LOAD
+# =====================
 @op
 def load_raw_to_postgres():
     result = subprocess.run(
@@ -26,11 +32,14 @@ def load_raw_to_postgres():
     )
 
     if result.returncode != 0:
-        raise Failure(result.stderr)
+        raise Exception(result.stderr)
 
     return "loaded"
 
 
+# =====================
+# DBT
+# =====================
 @op
 def run_dbt_transformations():
     result = subprocess.run(
@@ -42,11 +51,14 @@ def run_dbt_transformations():
     )
 
     if result.returncode != 0:
-        raise Failure(result.stderr)
+        raise Exception(result.stderr)
 
     return "dbt_done"
 
 
+# =====================
+# YOLO
+# =====================
 @op
 def run_yolo_enrichment():
     result = subprocess.run(
@@ -56,6 +68,25 @@ def run_yolo_enrichment():
     )
 
     if result.returncode != 0:
-        raise Failure(result.stderr)
+        raise Exception(result.stderr)
 
     return "yolo_done"
+
+
+# =====================
+# JOB (PIPELINE)
+# =====================
+@job
+def medical_telegram_pipeline():
+    scrape_telegram_data()
+    load_raw_to_postgres()
+    run_dbt_transformations()
+    run_yolo_enrichment()
+
+
+# =====================
+# IMPORTANT ENTRYPOINT
+# =====================
+defs = Definitions(
+    jobs=[medical_telegram_pipeline]
+)
